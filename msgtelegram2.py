@@ -26,6 +26,22 @@ Os derivativos são complexos e apresentam alto risco de perda rápida. 80% dos 
 Material exclusivo do Terminal Macro Trader:
 
 Acompanhe Ao Vivo o MacroClose - Com Júnior Wuttke (CNPI-P) da Macro Trader (17:30)''':'',
+'Panorama Jonas Esteves': '',
+'Assine o Panorama e garanta seus 7 dias gratuitos.': '',
+'''🔴 A preparação completa está disponível apenas no Terminal Macro Trader. Cliente ActivTrades tem acesso gratuito. Acesse: https://www.macrotrader.com.br/terminal
+    
+   via Terminal Macro Trader/Activtrades
+
+...
+Disclaimer ActivTrades Brasil: Os derivativos financeiros são instrumentos complexos e apresentam um alto risco de perder dinheiro rapidamente devido à alavancagem. 82% das contas de investidores de retalhos perdem dinheiro quando negociam derivativos''':'',
+'''🔴 Em 15 Minutos
+
+Material exclusivo do Terminal Macro Trader:
+
+Acompanhe Ao Vivo o MacroPreps - Com Júnior Wuttke (CNPI-P) da Macro Trader (8h)
+
+YouTube/MacroTrader''':'',
+
 }
 
 # Função para substituir o texto e links
@@ -58,7 +74,7 @@ async def processar_mensagem(event):
 # Função para enviar a imagem com texto nos horários específicos
 async def enviar_imagem_em_horarios_especificos(client):
     destino = -1002231747942
-    imagem_caminho = 'Curso_Feed.png'
+    image_path = '/home/kaioluan2013_km/Curso_Feed.png'
     texto = '''**EFG Market Mind:**
 **Você está pronto para transformar seu conhecimento e alcançar o próximo nível?**
 
@@ -75,7 +91,7 @@ e terá **acesso exclusivo a indicadores** desenvolvidos para maximizar seus gan
 cada dia de espera é um dia a menos de ganhos potenciais. **Inscreva-se já e domine o mercado financeiro!**'''
 
     # Verifica se o caminho da imagem é válido
-    if not os.path.exists(imagem_caminho):
+    if not os.path.exists(image_path):
         print(f"Erro: A imagem '{imagem_caminho}' não foi encontrada.")
         return
 
